@@ -74,6 +74,11 @@
     <None Include="Properties\PublishProfiles\sc82u6.pubxml" />
     <None Include="web.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Config\Include\zzz\Sitecore.Support.215894.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
