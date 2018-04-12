@@ -33,7 +33,7 @@ namespace Sitecore.Support.ListManagement.ContentSearch.Pipelines.GetAllLists
       else
       {
         ID[] templateIds = new ID[] { base.TemplateId, base.SegmentedListTemplateId };
-        args.ResultLists = new QueryableProxy<ContactList>(new ContactListQueryProvider(this.index, item.ID, item.ID, templateIds, args.IncludeSubFolders));
+        args.ResultLists = new QueryableProxy<ContactList>(new Sitecore.Support.ListManagement.ContentSearch.ContactListQueryProvider(this.index, item.ID, item.ID, templateIds, args.IncludeSubFolders));
       }
     }
 

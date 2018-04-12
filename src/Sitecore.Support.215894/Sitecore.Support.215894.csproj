@@ -65,6 +65,7 @@
     <Reference Include="System.Configuration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ListManagement\ContentSearch\ContactListQueryProvider.cs" />
     <Compile Include="ListManagement\ContentSearch\Pipelines\GetAllLists\GetAllContactLists.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
